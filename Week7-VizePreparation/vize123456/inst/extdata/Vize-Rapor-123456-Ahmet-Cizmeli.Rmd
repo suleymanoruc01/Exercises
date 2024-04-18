@@ -1,0 +1,47 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+## Q1 İş, problem ve ihtiyaç tanımı
+
+### Problem ve ihtiyaç
+
+### Çözüm önerisi - Veri Seti tanımı
+Bulduğunuz ve kullanacağınız veri setini ve kullanacağınız parametreleri kısaca anlatın.
+
+### Çözüm önerisi - Planlanan analiz (özet)
+Yapmayı planladığınız analizi kısaca anlatın.
+
+### Çözüm önerisi - Planlanan analiz sonuçları
+Hesaplanacak KPI'lar ya da bulmayı planladığınız rapor sonuçlarını analiz öncesinde burada kısaca anlatın.
+
+
+## Q2 - Veri İthali
+```{r}
+#SQLite veritabanını yaratan kodlar 
+
+#vize123456::create_sqlite_db()
+```
+
+## Q3 - Veri Kalite Kontrolü
+```{r}
+# data <- vize123456::retrieve_dbdata()
+# data <- #vize123456::data_preprocessing()
+# vize123456::write_data_to_db(data)
+```
+
+## Q4 Veri analizi
+```{r}
+# kpi <- vize123456::data_analysis(data)
+# ya da 
+# ara_tablo <- vize123456::data_analysis(data)
+# kpi <- vize123456::data_analysis(ara_tablo)
+# vize123456::make_graphic(ara_tablo)
+```
+
+## Q5 : Sonuçlar ve değerlendirmeler
+
