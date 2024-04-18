@@ -1,0 +1,48 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+## Q1 İş, problem ve ihtiyaç tanımı
+Şirketimiz **CleanHair**. Problemimiz *Şirketimiz bir startup’dur.Yeni bir girişim olduğu için şirketin geçmişi ve geleceği belirsizdir. Bir zamanlar hayalini kurduğumuz bu şirketi kurmakta ki en temel gayemiz, bizden sonra ki nesillere daha temiz ve yaşanabilir bir dünya bırakabilmektir. Ancak günümüzde fosil yakıtlı araç kullanımının çok yaygın olmasından dolayı işimiz epey zordur. İlk etapta ihtiyacımız olan hangi şehirin havası en pis onu bulmak. En pis havaya sahip şehri bulup oradan dünyayı daha rahat nefes alınabilecek hale getirmek.*. 
+
+### Problem ve ihtiyaç
+En temel gayemiz, bizden sonra ki nesillere daha temiz ve yaşanabilir bir dünya bırakabilmektir. Ancak günümüzde fosil yakıtlı araç kullanımının çok yaygın olmasından dolayı işimiz epey zordur. İlk etapta ihtiyacımız olan hangi şehirin havası en pis onu bulmak. En pis havaya sahip şehri bulup oradan dünyayı daha rahat nefes alınabilecek hale getirmek.
+### Çözüm önerisi - Veri Seti tanımı
+(https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023) Kaggle veri seti ile şehirlerin büyüklükleri, nüfusları, CO2 emisyonu verilerini içermektedir. Hava kirliliğini önlemek adına şirketimiz yeni bir cihaz geliştirmiştir. 
+
+### Çözüm önerisi - Planlanan analiz (özet)
+Elimizde ki veri setimizde bulunan şehir ve CO2 emisyonu verilerini karşılaştırarak havası en kötü şehri bulmayı planlıyoruz.
+
+### Çözüm önerisi - Planlanan analiz sonuçları
+Bulmayı planladığımız en temel sonuç şehirlerin hava kirlilik oranlarını görüp en kirli havayı soluyan şehri öğrenmektir.
+
+
+## Q2 - Veri İthali
+```{r}
+#SQLite veritabanını yaratan kodlar 
+
+#vize123456::create_sqlite_db()
+```
+
+## Q3 - Veri Kalite Kontrolü
+```{r}
+# data <- vize123456::retrieve_dbdata()
+# data <- #vize123456::data_preprocessing()
+# vize123456::write_data_to_db(data)
+```
+
+## Q4 Veri analizi
+```{r}
+# kpi <- vize123456::data_analysis(data)
+# ya da 
+# ara_tablo <- vize123456::data_analysis(data)
+# kpi <- vize123456::data_analysis(ara_tablo)
+# vize123456::make_graphic(ara_tablo)
+```
+
+## Q5 : Sonuçlar ve değerlendirmeler
+
